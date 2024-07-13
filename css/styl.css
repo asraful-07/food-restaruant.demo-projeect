@@ -47,15 +47,10 @@
     text-align: center;
     margin: 24px 0px;
 } 
-/* .maini{
-    max-width: 60PX 1920px;
-    margin: 60px auto;
-    border: 2px solid blue;
-} */
-.section-card{
+.about{
     width: 1920px;
-    margin: 60px auto;
-    border: 2px solid pink;
+    margin: 100px auto;
+    border: 2px solid red;
 }
 h6{
     color: rgb(16, 16, 16);
@@ -84,7 +79,7 @@ h6{
    margin: 30px auto;
    display: flex;
    justify-content: space-between;
-   gap: 10px;
+   gap: 20px;
 }
 .imges{
     margin: 32px 0px;
@@ -133,4 +128,18 @@ h6{
     text-align: center;
     /* margin: 24PX 0; */
     opacity: 0.7;
+}
+.btn-x{
+    margin-left: 800px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 32px;
+    margin-bottom: 10px;
 }
