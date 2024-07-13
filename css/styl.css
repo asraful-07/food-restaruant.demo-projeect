@@ -4,23 +4,133 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.header{
+    max-width: 1920px;
+    max-height: 919px;
+    margin: 0 auto;
+}
 .hero{
-    height: 615px; 
     background-image: url(../assets/hero-bg.png); 
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-.hero .hero-content{
-    width: 685px;
+.hero-content .subtitle{ 
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    margin: 16px 0px;
 }
-.hero .hero-content .subtitle{ color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 64px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: 0%;
-text-align: center;
+.hero-content .heading{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    margin: 16px 0px;
+
+}
+.hero-content .hero-title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+} 
+/* .maini{
+    max-width: 60PX 1920px;
+    margin: 60px auto;
+    border: 2px solid blue;
+} */
+.section-card{
+    width: 1920px;
+    margin: 60px auto;
+    border: 2px solid pink;
+}
+h6{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin: 16px 0px;
+}
+.food-heading{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+}
+.card{
+   width: 1320px;
+   border: 2px solid darkblue;
+   margin: 30px auto;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+}
+.imges{
+    margin: 32px 0px;
+}
+.imges img{
+    width: 100%;
+    height: auto;
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    border: none;
+    margin-top: 24px;
+
+}
+.card .descont{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24PX 0PX;
+}
+.card .menu{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* margin: 24PX 0; */
+    opacity: 0.7;
 }
