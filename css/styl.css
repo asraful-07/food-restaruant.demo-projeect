@@ -50,7 +50,6 @@
 .about{
     width: 1920px;
     margin: 100px auto;
-    border: 2px solid red;
 }
 h6{
     color: rgb(16, 16, 16);
@@ -75,7 +74,6 @@ h6{
 }
 .card{
    width: 1320px;
-   border: 2px solid darkblue;
    margin: 30px auto;
    display: flex;
    justify-content: space-between;
@@ -142,4 +140,59 @@ h6{
     text-align: center;
     padding: 21px 32px;
     margin-bottom: 10px;
+    border: none;
+}
+/* About section code */
+.hero-he{
+    width: 1000px;
+    margin: 0px auto;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+/* .im{
+    width: 50%;
+} */
+.im img{
+    width: 100%;
+    height: auto;
+}
+/* .about-title{
+    width: 50%;
+} */
+.about-title .card-heading{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.about-title .praimary-heading{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+}
+.about-title .secendary-heading{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin:24px 0px;
+}
+.about-title .socail-media{
+
 }
